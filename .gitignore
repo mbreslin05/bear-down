@@ -1,0 +1,48 @@
+# ------------------------------------------------------------------------------
+# Secrets and environment files
+# ------------------------------------------------------------------------------
+.Renviron
+.Renviron.*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# ------------------------------------------------------------------------------
+# R / RStudio
+# ------------------------------------------------------------------------------
+.Rhistory
+.RData
+.Rdata
+.Ruserdata
+.Rapp.history
+.Rproj.user/
+
+# Package/environment caches
+renv/library/
+renv/local/
+renv/staging/
+packrat/lib*/
+packrat/src/
+
+# Quarto / R Markdown build output
+.quarto/
+*_cache/
+*_files/
+*.knit.md
+*.utf8.md
+
+# ------------------------------------------------------------------------------
+# Editors and OS
+# ------------------------------------------------------------------------------
+.DS_Store
+.Spotlight-V100
+.Trashes
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
